@@ -14,10 +14,10 @@ const NavBar = () =>{
                         <NavLink className = {'navlink2'} to = {'/'}>Home</NavLink>
                     </li>
                     <li className = {'l2'}>
-                        <NavLink className = {'navlink2'} to = {'/'}>Sing In</NavLink>
+                        <NavLink className = {'navlink2'} to = {'/signIn'}>Sing In</NavLink>
                     </li>
                     <li className = {'l3'}>
-                        <NavLink className = {'navlink2'} to = {'/'}>Sing Up</NavLink>
+                        <NavLink className = {'navlink2'} to = {'/signUp'}>Sing Up</NavLink>
                     </li>
                 </ul>
             </nav>
