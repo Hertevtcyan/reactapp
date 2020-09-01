@@ -13,10 +13,10 @@ const NavBar = () =>{
                     <li className = {'l1'}>
                         <NavLink className = {'navlink2'} to = {'/'}>Home</NavLink>
                     </li>
-                    <li className = {'l1'}>
+                    <li className = {'l2'}>
                         <NavLink className = {'navlink2'} to = {'/'}>Sing In</NavLink>
                     </li>
-                    <li className = {'l1'}>
+                    <li className = {'l3'}>
                         <NavLink className = {'navlink2'} to = {'/'}>Sing Up</NavLink>
                     </li>
                 </ul>

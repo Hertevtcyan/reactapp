@@ -1,14 +1,27 @@
 import React, { useState } from 'react';
 import './App.css';
-import NavBar from './Nods/Components/navbar';
+import { Green, NavBar } from './Nods/Components/index'
 
+import Routes from './Nods/Routes';
 
 const App = () =>{
   
 
   return(
     <div>
-      <NavBar/>
+          <header>
+                  <NavBar/>
+                  <Green/>
+          </header>
+
+          <section>
+                  <Routes/>
+
+          </section>
+
+          <footer>
+
+          </footer>
     </div>
 
     
