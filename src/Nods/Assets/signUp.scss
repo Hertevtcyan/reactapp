@@ -1,0 +1,55 @@
+.mother_divUp{
+    width: 40%;
+    margin: 50px auto;
+    div{
+        margin: 0 auto;
+        h1{
+            text-align: center;
+            font-weight: 300!important;
+            font-size: 230%;
+        }
+        h4{
+            text-align: center;
+            font-weight: 300!important;
+            padding: 20px;
+        .signUp_nav{
+                    text-decoration: none;
+                    color: #5CB85C;
+                }
+        }
+        
+    }
+    .input_name{
+        width: 100%;
+        height: 50px;
+        padding-left: 30px;
+        font-size: 140%;
+        color: gray;
+        font-weight: 300!important;
+    }
+    .input_email{
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+        padding-left: 30px;
+        font-size: 140%;
+        color: gray;
+        font-weight: 300!important;
+        
+    }
+    .input_password{
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+        padding-left: 30px;
+        font-size: 140%;
+        color: gray;
+        font-weight: 300!important;
+    }
+    .signUp_but{
+        margin-top: 15px;
+        margin-left: 447px;
+        padding: 10px 20px 10px 20px;
+    }
+
+}

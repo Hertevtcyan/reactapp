@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Green, NavBar } from './Nods/Components/index'
-
-
 import Routes from './Nods/Routes';
+import { Route } from 'react-router-dom';
 
 const App = () =>{
   
@@ -12,7 +11,9 @@ const App = () =>{
     <div>
           <header>
                   <NavBar/>
-                  <Green/>
+                  <Route exact path = {'/'}>
+                    <Green/>
+                  </Route>
           </header>
 
           <section>
