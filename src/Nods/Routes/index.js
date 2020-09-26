@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { SignIn, SignUp } from '../index'
+import { SignIn } from '../index'
 
 export default ()=>{
     return(
@@ -13,9 +13,11 @@ export default ()=>{
                  <SignIn/>
              </Route>
 
-            <Route path = {'/signUp'}>
-                <SignUp/>
-            </Route>
+             <Route path = {'/signUp'}>
+                 <SignIn/>
+             </Route>
+
+            
 
             <Route path = {'/posts/:id'}></Route>
 

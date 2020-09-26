@@ -37,6 +37,16 @@
         color: gray;
         font-weight: 300!important;
     }
+
+    .input_name{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        padding-left: 30px;
+        font-size: 140%;
+        color: gray;
+        font-weight: 300!important;
+    }
     .signIn_but{
         margin-top: 15px;
         margin-left: 447px;
@@ -44,3 +54,19 @@
     }
 
 }
+
+
+.err__message{
+    border: 1px solid red !important;
+    color: red !important;
+  }
+  
+  input{
+      outline: none;
+  }
+
+  
+  .disabled {
+    background: grey;
+    pointer-events: none;
+  }
